@@ -1,5 +1,18 @@
 # Phishing Website Detection by Machine Learning Techniques
 
+[Repository (GitHub)](https://github.com/sakshib749/seminar)
+
+## Usage
+
+Quick commands to run the prediction script locally (PowerShell / Windows):
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python predict.py "https://www.example.com" --verbose
+```
+
 ## Objective
 A phishing website is a common social engineering method that mimics trustful uniform resource locators (URLs) and webpages. The objective of this project is to train machine learning models and deep neural nets on the dataset created to predict phishing websites. Both phishing and benign URLs of websites are gathered to form a dataset and from them required URL and website content-based features are extracted. The performance level of each model is measures and compared.
 
@@ -50,4 +63,4 @@ From the obtained results of the above models, XGBoost Classifier has highest mo
 
 ### Next Steps
 
-This project can be further extended to creation of browser extention or developed a GUI which takes the URL and predicts it's nature i.e., legitimate of phishing. *As of now, I am working towards the creation of browser extention for this project. And may even try the GUI option also.* The further developments will be updated at the earliest. 
+This project can be further extended to creation of browser extention or developed a GUI which takes the URL and predicts it's nature i.e., legitimate of phishing. *As of now, I am working towards the creation of browser extention for this project. And may even try the GUI option also.* The further developments will be updated at the earliest.
